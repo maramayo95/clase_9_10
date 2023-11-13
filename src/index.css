@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.grilla {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.skeleton-card {
+  background-color: #f0f0f0;
+}
+
+.skeleton-text {
+  height: 20px;
+  background-color: #e0e0e0;
+  margin-bottom: 10px;
+}
+
+@media (max-width:780px){
+  .grilla{
+    display:flex;
+    flex-direction: column;
+  }
+}
